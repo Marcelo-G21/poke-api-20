@@ -1,0 +1,47 @@
+#body {
+    background-image: url("https://wallpapers-clan.com/wp-content/uploads/2024/03/pokemon-bulbasaur-landscape-desktop-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#title {
+    font-size: 6vh;
+    color: #FFD73E;
+    text-shadow: 1px 1px 0 black, -1px 1px 0 black, 1px -1px 0 black, -1px -1px 0 black;
+}
+
+#card {
+    background-color: rgba(188, 238, 247, 0.7);
+    backdrop-filter: blur(3px);
+}
+
+#image {
+    width: 20vh;
+}
+
+#footer {
+    background-color: rgba(188, 238, 247, 0.8);
+    backdrop-filter: blur(3px);
+}
+
+@media (max-width: 767px) {
+    #image {
+        width: 15vh;
+    }
+
+    #card-container {
+        width: 15vh;
+    }
+
+    #poke-name {
+        font-size: 2vh;
+    }
+
+    #footer__text {
+        font-size: 2vh;
+    }
+
+
+}
