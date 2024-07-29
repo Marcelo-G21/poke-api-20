@@ -17,10 +17,6 @@
     backdrop-filter: blur(3px);
 }
 
-#card-container {
-    color: transparent;
-}
-
 #image {
     width: 20vh;
 }
