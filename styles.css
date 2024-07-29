@@ -31,6 +31,11 @@
 }
 
 @media (max-width: 767px) {
+    
+    #body {
+        background-image: url("https://wallpapercg.com/download/ash-ketchum-1872x3042-12457.jpg");
+    }
+    
     #image {
         width: 15vh;
     }
